@@ -1,12 +1,12 @@
 @font-face {
 	font-family: "Montserrat";
-	src: url(/arthurlin-dev.github.io/fonts/Montserrat-Regular.ttf);
+	src: url(fonts/Montserrat-Regular.ttf);
 }
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Montserrat";
+	font-family: "Montserrat", sans-serif;
 	scroll-behavior: smooth;
 }
 
