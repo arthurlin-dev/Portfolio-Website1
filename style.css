@@ -15,18 +15,18 @@ html,body {
 }
 
 h1 {
-	font-size: 2.8rem;
+	font-size: 5vh;
 	color:whitesmoke;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 3vh;
 	color: whitesmoke;
 }
 
 h3 {
 	color: whitesmoke;
-	font-size: 1.5vw;
+	font-size: 2.25vw;
 }
 
 mark {
@@ -35,10 +35,9 @@ mark {
 	animation: color-change 12.5s ease infinite;
 }
 
-
 .about,.skills,.projects,.contact {
 	position: relative;
-	font-size: 1.5rem;
+	font-size: 2vw;
 	background-color: #333;
 	background-size: 100% 100%;
 	height: 100%;
@@ -46,14 +45,14 @@ mark {
 	color: whitesmoke;
 }
 
-.about {
+.about {	
 	text-align: left;
-	padding: 40vh 0 0 5vw;
+	padding: 10vh 0 0 5vw;
 }
 
 .about span {
 	display: block;
-	width: 7.7vw;
+	width: 12vw;
 	height: 0.25rem;
 	border-radius: 0.25rem;
 	background: #ff4d5a;
@@ -61,18 +60,19 @@ mark {
 
 .about p {
 	padding-top: 1vh;
-	font-size: 1vw;
+	font-size: 1.5vw;
+	font-weight: bold;
 }
 
 .programming {
 	width: 40vw;
 	height: 60vh;
-	float: right;
-	padding: 0 15vh 15vh 0;
-	position: relative;
-	top: -10vh;
-	left: -5vw;
-	margin: 1rem 0 0 1rem;
+	padding-top: 10vh;
+}
+
+.programming2 {
+	width: 40vw;
+	height: 60vh;
 }
 
 .arthur {
