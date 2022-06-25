@@ -68,7 +68,7 @@ mark {
 	width: 40vw;
 	height: 60vh;
 	float: right;
-	padding: 0rem 15vh 15vh 0rem;
+	padding: 0 15vh 15vh 0;
 	position: relative;
 	top: -10vh;
 	left: -5vw;
