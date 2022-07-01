@@ -35,6 +35,12 @@ mark {
 	animation: color-change 12.5s ease infinite;
 }
 
+.arthur {
+    width: 8rem;
+    border-radius: 8rem;
+	margin: 1rem 0 0 1rem;
+}
+
 .about,.skills,.projects,.contact {
 	position: relative;
 	font-size: 2vw;
@@ -78,12 +84,6 @@ mark {
 	padding-left: 10vw;
 }
 
-.arthur {
-    width: 8rem;
-    border-radius: 8rem;
-	margin: 1rem 0 0 1rem;
-}
-
 .navbar {
 	font-weight: bold;
 }
@@ -105,7 +105,7 @@ mark {
 	float: left;
 	color: whitesmoke;
 	text-align: center;
-	padding: 0.5vw 0.75vw;
+	padding: 1vh 0.75vw;
 	text-decoration: none;
 	display: inline;
 	user-select: none;
@@ -127,6 +127,67 @@ mark {
 	padding-top: 30vh;
 	text-shadow: .25rem .25rem .25rem rgb(88, 88, 88);
 	user-select: none;
+}
+
+.skills h3 {
+	text-align: center;
+	padding-top: 15vh;
+}
+
+.skills span {
+	position: absolute;
+	left: 45vw;
+	display: block;
+	width: 9vw;
+	height: 0.25rem;
+	border-radius: 0.25rem;
+	background: #ff4d5a;
+}
+
+.skills ul{
+	font-size: 25%;
+	font-weight: bold;
+	border-radius: 1rem;
+	text-align: center;
+	list-style: none;
+	width: 10vw;
+	height: 17vh;
+	box-shadow: 0 0 0.2rem rgb(253, 241, 171);
+	margin-top: 20vh;
+	scale: 250%;
+}
+
+.skills .sktop {
+	font-weight: bold;
+}
+
+.skills ul:hover {
+	transition: all .25s linear;
+	scale: 260%
+}
+
+.skills li {
+	margin-top: 1vh;
+	font-weight: normal;
+}
+
+.technical {
+	position: absolute;
+	left: 18vw;
+	background: #085078; 
+	background: linear-gradient(-45deg, #f403d1, #64b5f6);
+}
+
+.sktools {
+	position: absolute;
+	left: 45vw;
+	background: linear-gradient(-45deg, #ffec61, #f321d7);
+}
+
+.otskills {
+	position: absolute;
+	left: 72vw;
+	background: linear-gradient(-45deg, #9a4eff, #ffec61);
 }
 
 @keyframes back-gradient {
