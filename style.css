@@ -29,7 +29,7 @@ h2 {
 	color: whitesmoke;
 }
 
-h3, h4{
+h3, h4, h5, h6{
 	color: whitesmoke;
 	font-size: 2.25vw;
 }
@@ -39,7 +39,6 @@ mark {
 	color:white;
 	animation: color-change 12.5s ease infinite;
 }
-
 
 .navbar {
 	font-weight: bold;
@@ -69,7 +68,7 @@ mark {
 }
 
 .navbar li > a:hover {
-	background-color: #ff4d5a;
+	background-color: #00A6D7;
 	transition: all 500ms ease;
 	border-radius: 4rem;
 }
@@ -92,6 +91,14 @@ mark {
 	margin: 1rem 0 0 1rem;
 }
 
+span {
+	height: 0.25rem;
+	border-radius: 0.25rem;
+	background: #ff4d5a;
+	position: absolute;
+	display: block;
+}
+
 .about,.skills,.projects,.contact {
 	position: relative;
 	font-size: 2vw;
@@ -111,8 +118,6 @@ mark {
 .about span {
 	display: block;
 	width: 12vw;
-	height: 0.25rem;
-	border-radius: 0.25rem;
 	background: #ff4d5a;
 }
 
@@ -203,10 +208,7 @@ mark {
 	position: absolute;
 	left: 45vw;
 	display: block;
-	width: 9vw;
-	height: 0.25rem;
-	border-radius: 0.25rem;
-	background: #ff4d5a;
+	width: 9.5vw;
 }
 
 .skills ul{
@@ -256,12 +258,70 @@ mark {
 }
 
 .projects span {
+	width: 9.5vw;
 	position: absolute;
-	display: block;
-	width: 10vw;
-	height: 0.25rem;
-	border-radius: 0.25rem;
-	background: #ff4d5a;
+	left: 45vw;
+}
+
+.projects h5 {
+	text-align: center;
+	padding-top: 15vh;
+}
+
+.gauntlet, .arfish {
+	width:37.8125rem;
+	height:22.5rem;
+	position: absolute;
+	margin-top: 8%;
+	scale: 150%;
+}
+
+.gauntlet {
+	position: relative;
+	margin-left: 15%;
+}
+
+.arfish {
+	position: relative;
+	margin-left: 22%;
+}
+
+.projects div p {
+	display: inline-block;
+	margin: 4% 7% 0 17%;
+	font-size: 75%;
+}
+
+.sidenote {
+	text-align: center;
+	margin-top: 4%;
+	font-size: 50%;
+}
+
+.contact {
+	text-align: left;
+	padding: 5vh 5vw 0 5vw;
+	text-decoration: none;
+	background-color: #434242;
+	height: 50%;
+}
+
+.contact h6 {
+	color: whitesmoke;
+}
+
+.contact span {
+	background-color: #ff4d5a;
+	width: 15rem;
+}
+
+.contact ul {
+	padding-top: 2%;
+}
+
+.contact li {
+	list-style: none;
+	padding-top: 2%
 }
 
 @keyframes back-gradient {
