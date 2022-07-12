@@ -324,6 +324,11 @@ span {
 	padding-top: 2%
 }
 
+.contact li:hover {
+	color: #ff4d5a;
+	transition: all 500ms ease;
+}
+
 @keyframes back-gradient {
 	0% {background-position: 0% 50%;}
 	50% {background-position: 100% 50%;}
