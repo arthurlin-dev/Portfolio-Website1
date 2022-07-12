@@ -68,7 +68,7 @@ mark {
 }
 
 .navbar li > a:hover {
-	background-color: #00A6D7;
+	background-color: #ff4d5a;
 	transition: all 500ms ease;
 	border-radius: 4rem;
 }
