@@ -269,8 +269,8 @@ span {
 }
 
 .gauntlet, .arfish {
-	width:37.8125rem;
-	height:22.5rem;
+	width:24vw;
+	height:29.5vh;
 	position: absolute;
 	margin-top: 8%;
 	scale: 150%;
@@ -278,7 +278,7 @@ span {
 
 .gauntlet {
 	position: relative;
-	margin-left: 15%;
+	margin-left: 13.75%;
 }
 
 .arfish {
